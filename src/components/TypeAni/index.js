@@ -13,7 +13,7 @@ const TypeAni = () => {
                     2000,
                     ' web developer',
                     2000,
-                    'entusiasta',
+                    'feliz de que estés aquí',
                     2000,
                     'una  junior con ganas de aprender',
                     2000,

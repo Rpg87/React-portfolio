@@ -1,11 +1,11 @@
-import LogoR from '../../assets/images/LogoR.png';
+// import LogoR from '../../assets/images/LogoR.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import RAnimated from '../RAnimated';
-import Logo from './Logo';
-import VibrantLines from '../VibrantLines';
+
+// import Logo from './Logo';
+// import VibrantLines from '../VibrantLines';
 import Loader from 'react-loaders';
 import TypeAnimation from '../TypeAni';
 
@@ -14,9 +14,8 @@ import TypeAnimation from '../TypeAni';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [ltClass, setLtClass] = useState('text-');
-    const rArray = ['R']
-    const nameArray = ['a', 'q', 'u', 'e', 'l'];
+
+    const nameArray = ['R', 'a', 'q', 'u', 'e', 'l'];
     const jobArray = [
         'w',
         'e',
@@ -37,13 +36,10 @@ const Home = () => {
     useEffect(() => {
         return setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 7000)
+        }, 3000)
     }, [])
-    useEffect(() => {
-        return setTimeout(() => {
-            setLtClass('text-hover')
-        }, 7000)
-    }, [])
+
+
 
 
     return (
@@ -68,10 +64,8 @@ const Home = () => {
                         <span className={`${letterClass} _17`} >o </span>
                         <span>&nbsp;</span>
                         <span>
-                            <span className='uniqueletter'>
-                                <RAnimated letterClass={ltClass} strArray={rArray} idx={18} />
-                            </span>
-                            <RAnimated letterClass={letterClass} strArray={nameArray} idx={16} />
+
+                            <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={18} />
                         </span>
                         <br />
                         <span className={`${letterClass} _24`} >y </span>

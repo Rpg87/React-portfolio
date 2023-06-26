@@ -1,7 +1,7 @@
 .nav-bar {
     background: #181818;
     // background: wheat;
-    width: 60px;
+    width: 70px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -77,13 +77,19 @@
 
         a.about-link {
             &:after {
-                content: 'ABOUT';
+                content: 'SOBRE MI';
             }
         }
 
         a.contact-link {
             &:after {
-                content: 'CONTACT';
+                content: 'CONTACTO';
+            }
+        }
+
+        a.portfolio-link {
+            &:after {
+                content: 'MI OBRA';
             }
         }
 

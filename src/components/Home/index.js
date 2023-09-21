@@ -4,7 +4,7 @@ import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 
-// import Logo from './Logo';
+import Logo from './Logo';
 // import VibrantLines from '../VibrantLines';
 import Loader from 'react-loaders';
 import TypeAnimation from '../TypeAni';
@@ -80,11 +80,11 @@ const Home = () => {
 
 
                     <h2>Jr Front-End / Code Dreamer</h2>
-                    <Link to='/contact' className='flat-button' > CONTRÁTAME </Link>
+                    <Link to='/contact' className='flat-button' > CONTACTO </Link>
                 </div>
 
                 <div>
-
+                    <Logo />
                 </div>
             </div >
             <Loader type='pacman' />

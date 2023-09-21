@@ -1,6 +1,7 @@
 import './index.scss';
 import Sidebar from '../Sidebar';
 import { Outlet } from 'react-router-dom';
+import Music from '../Music';
 
 
 const Layout = () => {
@@ -9,6 +10,7 @@ const Layout = () => {
             <Sidebar />
             <div className="page">
                 <span className="tags top-tags">&lt;body&gt;</span>
+                <Music />
 
                 <Outlet />
                 <span className="tags bottom-tags">

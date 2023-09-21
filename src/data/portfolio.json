@@ -1,34 +1,47 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/three.gif",
+            "title": "Age Calculator App",
+            "description": "JavaScript, Css3, html5",
+            "url": "https://rpg87.github.io/Age-calculator-app/",
+            "code": "https://github.com/Rpg87/Age-calculator-app"
         },
         {
-            "cover": "/portfolio/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/rick.png",
+            "title": "React and Morty",
+            "description": "React, JSX, Scss, html5",
+            "url": "https://rpg87.github.io/React-and-Morty/#/",
+            "code": "https://github.com/Rpg87/React-and-Morty"
         },
         {
-            "cover": "/portfolio/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/awesome.png",
+            "title": "Awesome profile Cards",
+            "description": "JavaScript, Scss, html5",
+            "url": "http://beta.adalab.es/project-promo-r-module-2-team-8/",
+            "code": "https://github.com/Rpg87/Awesome-profile-Cards"
         },
         {
-            "cover": "/portfolio/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/two.gif",
+            "title": "Vanilla Memory Card",
+            "description": "JavaScript, Css3, html5",
+            "url": "https://rpg87.github.io/Vanilla-Memory-Game/",
+            "code": "https://github.com/Rpg87/Vanilla-Memory-Game"
         },
         {
-            "cover": "/portfolio/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/topo1.png",
+            "title": "Wack-a-Mole",
+            "description": "JavaScript, Css3, html5",
+            "url": "https://rpg87.github.io/Tradicional-wack-a-mole/",
+            "code": "https://github.com/Rpg87/Tradicional-wack-a-mole"
+        },
+       
+        {
+            "cover": "/portfolio/bugger.png",
+            "title": "Refactor",
+            "description": "React, JSX, NodeJS, Scss",
+            "url": "https://beta.adalab.es/Adalab-project-promo-r-module-3-team-7/",
+            "code": "https://github.com/Rpg87/Refactor_Awesome-Profile-Cards"
         }
     ]
 }

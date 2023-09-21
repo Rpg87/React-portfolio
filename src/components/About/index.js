@@ -25,9 +25,9 @@ const About = () => {
                             strArray={['C', 'o', 'n', 'ó', 'c', 'e', 'm', 'e']}
                             idx={15} />
                     </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit eligendi sunt, fugit odit ratione, laborum quae ea, explicabo laudantium tempore distinctio! Dolore provident sapiente consectetur voluptatibus laudantium eligendi exercitationem?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore neque quibusdam eligendi dolore illo nulla eum ex ea velit, dignissimos rerum ipsum corporis omnis, nisi fugit incidunt facere accusantium. Animi?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur asperiores natus amet nostrum iusto iure, aperiam exercitationem veniam veritatis inventore ratione eaque soluta, voluptatibus nesciunt tenetur quibusdam ducimus sint?</p>
+                    <p>Mi nombre es Raquel, un espíritu curioso que ha emprendido un emocionante viaje desde el mundo de los seguros a la apasionante carrera de desarrollo web.</p>  <p>Durante siete años, desempeñé un papel esencial en Línea Directa, ascendiendo mientras demostraba mi entusiasmo por el aprendizaje y la responsabilidad. Mi experiencia en liderazgo, comunicación efectiva y negociación me ha preparado para esta nueva etapa.</p>  <p>Ahora, como junior web developer, estoy comprometida a aplicar mis habilidades de resolución de problemas, autoaprendizaje y colaboración en proyectos web innovadores. ¡Estoy emocionada por explorar este emocionante nuevo capítulo en la tecnología y seguir creciendo en un entorno inspirador! </p>
+
+
 
                 </div>
 

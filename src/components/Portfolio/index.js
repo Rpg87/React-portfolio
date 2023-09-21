@@ -29,12 +29,12 @@ const Portfolio = () => {
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={"Mi obra".split("")}
+                        strArray={"Trabajos".split("")}
                         idx={15} />
                 </h1>
 
+                <RenderProjects portfolio={portfolioData.portfolio} />
             </div>
-            <RenderProjects portfolio={portfolioData.portfolio} />
 
             <Loader type='pacman' />
         </>

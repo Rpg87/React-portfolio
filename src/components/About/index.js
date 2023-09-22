@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 
+
 const About = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -55,6 +56,7 @@ const About = () => {
                 </div>
             </div>
             <Loader type='pacman' />
+
         </>
     )
 }

@@ -1,3 +1,9 @@
+$defaultFontSize: 16;
+
+@function rem($pixels) {
+  @return math.div($pixels, $defaultFontSize) * 1rem;
+}
+
 $primary-color: #ffd700;
 
 @import 'animate.css';

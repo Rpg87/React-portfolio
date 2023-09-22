@@ -11,6 +11,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 
 
+
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const useForm = useRef()
@@ -112,6 +113,7 @@ const Contact = () => {
                             </Popup>
                         </Marker>
                     </MapContainer>
+
                 </div >
             </div>
 

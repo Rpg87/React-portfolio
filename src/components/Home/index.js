@@ -12,6 +12,7 @@ import TypeAnimation from '../TypeAni';
 
 
 
+
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
@@ -76,6 +77,7 @@ const Home = () => {
 
 
 
+
                     </h1>
 
 
@@ -87,6 +89,7 @@ const Home = () => {
                     <Logo />
                 </div>
             </div >
+
             <Loader type='pacman' />
         </>
     );

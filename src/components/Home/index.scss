@@ -28,16 +28,16 @@
         }
 
         // &:after {
- //     content: '<h1/>';
- //     font-family: 'La Belle Aurore', cursive;
- //     color: #ffd700;
- //     font-size: 18px;
- //     position: absolute;
- //     margin-top: 18px;
- //     margin-left: 20px;
- //     animation: fadeIn 1s 1.7s backwards;
- //     opacity: 0.6;
- // }
+        //     content: '<h1/>';
+        //     font-family: 'La Belle Aurore', cursive;
+        //     color: #ffd700;
+        //     font-size: 18px;
+        //     position: absolute;
+        //     margin-top: 18px;
+        //     margin-left: 20px;
+        //     animation: fadeIn 1s 1.7s backwards;
+        //     opacity: 0.6;
+        // }
 
         img {
             margin-left: 20px;
@@ -60,21 +60,21 @@
     }
 
     // .uniqueletter {
-   //     margin-left: 20px;
-   //     opacity: 0;
-   //     width: 32px;
-   //     height: auto;
-   //     animation: rotateIn 1s linear both;
-   //     animation-delay: 1.4s;
+    //     margin-left: 20px;
+    //     opacity: 0;
+    //     width: 32px;
+    //     height: auto;
+    //     animation: rotateIn 1s linear both;
+    //     animation-delay: 1.4s;
 
-   //     &:before {
-   //         color: fuchsia;
-   //     }
+    //     &:before {
+    //         color: fuchsia;
+    //     }
 
-   //     &:after {
-   //         color: fuchsia;
-   //     }
-   // }
+    //     &:after {
+    //         color: fuchsia;
+    //     }
+    // }
 
     .flat-button {
         color: #ffd700;
@@ -93,6 +93,27 @@
         &:hover {
             background: #ffd700;
             color: #333;
+        }
+    }
+}
+
+@media all and (max-width:768px) {
+    .home-page {
+        .text-zone {
+
+            width: 90%;
+
+            h1 {
+                font-size: 24px;
+                line-height: normal;
+                letter-spacing: 5px;
+                line-height: 35px;
+                width: 90%;
+            }
+        }
+
+        h2 {
+            padding-top: 20px;
         }
     }
 }

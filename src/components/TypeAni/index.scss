@@ -43,12 +43,16 @@
     .type {
 
         .ani {
-
+            display: block;
             margin-right: 15px;
             font-size: 24px;
-            line-height: normal;
-            letter-spacing: normal;
+            line-height: 35px;
+            letter-spacing: 5px;
             overflow: hidden;
+            background: linear-gradient(#ffd700, #7DBA84);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
 
         }
     }

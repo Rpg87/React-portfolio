@@ -90,3 +90,11 @@
         transform: rotateX(90deg);
     }
 }
+
+@media all and (max-width: 1200px) {
+    .stage-cube-cont {
+        display: none;
+    }
+
+
+}

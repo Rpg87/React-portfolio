@@ -1,7 +1,7 @@
 .logo-container {
     z-index: 0;
     width: 400px;
-height: 609px;
+    height: 609px;
     position: absolute;
     top: 0;
     right: 15%;
@@ -46,8 +46,9 @@ height: 609px;
     stroke-width: 10;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 1200px) {
     .logo-container {
         display: none;
     }
+
 }

@@ -53,7 +53,10 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque ut inventore totam sint rerum veniam commodi blanditiis ducimus numquam error quidem voluptates laudantium quia quis, suscipit fuga, placeat dolores.
+                        Hola de nuevo, espero hayas disfrutado tu estancia, si quieres conocerme un poco mejor aquí te dejo mi CV.
+                    </p>
+                    <p>
+                        Si estás buscando a alguien con quien trabajar, me encantaría tener la oportunidad de ser esa persona. Puedes rellenar este formulario para que yo me ponga en contigo o bien, me puedes localizar <a className='link' href='https://www.linkedin.com/in/raquel-pe-go/'> aquí </a>
                     </p>
                     <div className="contact-form">
                         <form onSubmit={sendEmail} ref={useForm}>

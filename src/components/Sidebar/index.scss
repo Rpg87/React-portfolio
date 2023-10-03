@@ -1,7 +1,7 @@
 .nav-bar {
     background: #181818;
     // background: wheat;
-    width: 70px;
+    width: 75px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -89,7 +89,7 @@
 
         a.portfolio-link {
             &:after {
-                content: 'TRABAJOS';
+                content: 'PROYECTOS';
             }
         }
 
@@ -148,6 +148,8 @@
         }
 
         nav {
+
+
             width: 100%;
             top: 0;
             left: 0;
@@ -158,16 +160,29 @@
             position: fixed;
 
             &.mobile-show {
+
                 display: block;
+
+
             }
 
             a {
                 display: flex;
-                justify-content: center;
+                flex-direction: column;
                 align-items: center;
+                justify-content: center;
+                padding: 10px;
+                margin-top: 15px;
+
+
+            }
+
+            nav a {
+                margin: 0 10px
             }
 
             a:after {
+                color: rgba(172, 157, 157, 0.63);
                 opacity: 1;
                 position: initial;
                 width: auto;
@@ -187,6 +202,8 @@
             display: block;
         }
 
+
+
         .logo {
             img {
                 margin-top: auto;
@@ -196,16 +213,3 @@
         }
     }
 }
-
-
-// @media (max-width: 530px) {
-
-//     .nav-bar,
-//     nav a {
-//         float: left;
-//         margin-left: 0 !important;
-//         line-height: 60px;
-//         height: 60px;
-//         width: 16.5%;
-//     }
-// }

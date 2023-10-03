@@ -7,6 +7,7 @@
     .image-box {
         position: relative;
         flex: 1 1 20%;
+
         height: 400px;
         overflow: hidden;
         border-radius: 10px;
@@ -101,4 +102,73 @@
 
     }
 
+}
+
+@media all and (max-width: 700px) {
+    .images-container {
+
+
+        .image-box {
+            flex: 50%;
+
+            .content {
+
+                width: 80%;
+
+                .title {
+                    font-size: 16px;
+                    margin: 0 10px 0 10px;
+
+                    text-align: center;
+
+                }
+
+                .description {
+                    display: none;
+                }
+
+                .btn {
+                    height: 35px;
+                    font-size: 12px;
+                    margin-left: 10px;
+                }
+
+            }
+        }
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 1000px) {
+    .images-container {
+
+
+        .image-box {
+            flex: 50%;
+
+            .content {
+
+                width: 100%;
+
+                .title {
+                    font-size: 22px;
+
+
+
+
+                }
+
+                .description {
+                    display: block;
+
+
+                    .btn {
+                        height: 35px;
+                        font-size: 12px;
+                        margin-left: 10px;
+                    }
+
+                }
+            }
+        }
+    }
 }

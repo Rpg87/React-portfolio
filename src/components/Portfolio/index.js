@@ -6,6 +6,7 @@ import { useState } from 'react';
 import portfolioData from '../../data/portfolio.json';
 import RenderProjects from './RenderProjects';
 
+
 const Portfolio = () => {
 
 
@@ -29,11 +30,12 @@ const Portfolio = () => {
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={"Trabajos".split("")}
+                        strArray={"Proyectos".split("")}
                         idx={15} />
                 </h1>
 
                 <RenderProjects portfolio={portfolioData.portfolio} />
+
             </div>
 
             <Loader type='pacman' />

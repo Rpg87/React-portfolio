@@ -186,3 +186,9 @@ $defaultFontSize: 16;
     }
 
 }
+
+@media screen and (max-width: 450px) {
+    .bottom-tags {
+        display: none;
+    }
+}

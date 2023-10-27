@@ -4,10 +4,12 @@ import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 
-import Logo from './Logo';
+
 // import VibrantLines from '../VibrantLines';
 import Loader from 'react-loaders';
 import TypeAnimation from '../TypeAni';
+import AnalogClock from './AnalogClock';
+
 
 
 
@@ -86,7 +88,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <Logo />
+
                 </div>
             </div >
 

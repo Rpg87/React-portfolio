@@ -1,0 +1,43 @@
+.simple-clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand {
+    position: absolute;
+    transform-origin: 50% 100%;
+    /* Cambiado el punto de origen para la transformación */
+    background-color: #494538;
+}
+
+.hour-hand {
+    height: 40px;
+    width: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(90deg);
+    /* Alineación y rotación */
+}
+
+.minute-hand {
+    height: 70px;
+    width: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(90deg);
+    /* Alineación y rotación */
+}
+
+.second-hand {
+    height: 80px;
+    width: 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(90deg);
+    /* Alineación y rotación */
+}
